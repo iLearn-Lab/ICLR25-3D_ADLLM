@@ -1,7 +1,0 @@
-2024-05-25 07:35:51 - -----New Run-----
-2024-05-25 07:35:51 - args: Namespace(model_name='DGCNN_modify', data_path='/workspace/project/Aff_LLM_debug/demo/demo_data', pointnum=2048, log_file='/workspace/project/Aff_LLM_debug/demo/serving_workdirs/serving_log_2024-05-25-07-35-51.txt', tmp_dir='/workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp', port=7810, config='/workspace/project/Aff_LLM_debug/models/openad/config/full_shape_cfg_modify_demo.py', checkpoint='/workspace/project/Aff_LLM_debug/model_ckpt/pointnet_best_model.t7', gpu=None)
-2024-05-25 07:35:51 - Starting conversation...
-2024-05-25 07:35:51 - --------------------------------------------------------------------------------
-2024-05-25 07:36:49 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-2024-05-25 07:36:49 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/7497cc610f9767df039ebed17f2753610cf04ed7/Knife_2fc5036e98cbdf4953cea6a99b7d6232_grab.npy.
-2024-05-25 07:36:49 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,7 +1,0 @@
-2024-05-17 09:19:14 - -----New Run-----
-2024-05-17 09:19:14 - args: Namespace(model_name='RunsenXu/PointLLM_7B_v1.2', data_path='/workspace/project/Aff_LLM_debug/demo/demo_data', pointnum=2048, log_file='/workspace/project/Aff_LLM_debug/demo/serving_workdirs/serving_log_2024-05-17-09-19-14.txt', tmp_dir='/workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp', port=7810, config='/workspace/project/Aff_LLM_debug/models/openad/config/full_shape_cfg_DGCNN_modify_demo.py', checkpoint='/workspace/project/Aff_LLM_debug/model_ckpt/DGCNN_best_model.t7', gpu='6')
-2024-05-17 09:19:29 - Starting conversation...
-2024-05-17 09:19:29 - --------------------------------------------------------------------------------
-2024-05-17 09:19:43 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-2024-05-17 09:19:43 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/f02a7b6abf464fc3aedaa27444f9847e9db896c3/Knife_3dbda789bc59a5f99246ea0301684d80_grasp.npy.
-2024-05-17 09:19:43 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
