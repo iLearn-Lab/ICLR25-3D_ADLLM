@@ -1,0 +1,31 @@
+model:
+  arch: phi
+  load_finetuned: False
+  load_pretrained: False
+
+  # point_encoder before LLM
+  point_model_config_path: "configs/models/PointTransformer_2048point.yaml"
+  freeze_point: True
+
+  # prompt_encoder_dim_setting
+  prompt_encoder_dim: 32
+  # point_segencoder
+  free_seg_point_encoder: True
+  train_aff_encoder: True
+  aff_path: 
+  seg_point_encoder_config_path: "models/openad/config/PT_modify.py"
+  seg_point_encoder_path: 
+  # Lora Settings
+  lora_r: 16
+  lora_alpha: 32
+
+  # llm
+  llm_model: "/workspace/Model/phi3.5"
+  # llama2_ckpt
+  lora_llm_finetune: True
+  freeze_llm: True
+  freeze_linear: False
+  # generation configs
+  prompt: ""
+
+

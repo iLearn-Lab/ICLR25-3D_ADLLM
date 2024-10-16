@@ -1,0 +1,11 @@
+pc_model: "eva02_base_patch14_448"
+pretrained_pc: ""
+patch_dropout: 0.0
+drop_path_rate: 0.1
+npoints: 10000
+num_group: 512
+group_size: 64
+pc_encoder_dim: 512
+pc_feat_dim: 768
+embed_dim: 1024
+ckpt_path: "/workspace/Model/uni3d/model.pt"
