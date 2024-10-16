@@ -1,0 +1,10 @@
+2024-05-17 08:13:08 - -----New Run-----
+2024-05-17 08:13:08 - args: Namespace(checkpoint='/workspace/project/Aff_LLM_debug/model_ckpt/pointnet_best_model.t7', config='/workspace/project/Aff_LLM_debug/models/openad/config/full_shape_cfg_modify_demo.py', data_path='/workspace/project/Aff_LLM_debug/demo/demo_data', gpu=None, log_file='/workspace/project/Aff_LLM_debug/demo/serving_workdirs/serving_log_2024-05-17-08-13-08.txt', model_name='RunsenXu/PointLLM_7B_v1.2', pointnum=2048, port=7810, tmp_dir='/workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp')
+2024-05-17 08:13:08 - Starting conversation...
+2024-05-17 08:13:08 - --------------------------------------------------------------------------------
+2024-05-17 08:13:38 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:13:38 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/05f6252164105d461e89bbd4d0ff0ab0906a46e5/Bottle_1df41477bce9915e362078f6fc3b29f5_openable.npy.
+2024-05-17 08:13:38 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:15:17 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:15:17 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/2f8b5ccb65ffdcd426a025b5933538315827cc9b/Bottle_1df41477bce9915e362078f6fc3b29f5_contain.npy.
+2024-05-17 08:15:17 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

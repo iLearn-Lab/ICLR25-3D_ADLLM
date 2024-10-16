@@ -1,0 +1,25 @@
+2024-05-17 10:37:27 - -----New Run-----
+2024-05-17 10:37:27 - args: Namespace(model_name='RunsenXu/PointLLM_7B_v1.2', data_path='/workspace/project/Aff_LLM_debug/demo/demo_data', pointnum=2048, log_file='/workspace/project/Aff_LLM_debug/demo/serving_workdirs/serving_log_2024-05-17-10-37-27.txt', tmp_dir='/workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp', port=7810, config='/workspace/project/Aff_LLM_debug/models/openad/config/full_shape_cfg_DGCNN_modify_demo.py', checkpoint='/workspace/project/Aff_LLM_debug/model_ckpt/DGCNN_best_model.t7', gpu=None)
+2024-05-17 10:37:27 - Starting conversation...
+2024-05-17 10:37:27 - --------------------------------------------------------------------------------
+2024-05-17 10:38:01 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 10:38:01 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/f02a7b6abf464fc3aedaa27444f9847e9db896c3/Knife_3dbda789bc59a5f99246ea0301684d80_grasp.npy.
+2024-05-17 10:38:01 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 10:55:04 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 10:55:04 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/bccc0dd190e445c7bfd0c32bbb62ef57fa267658/Knife_3b1f7f066991f2d45969e7cd6a0b6a55_grasp.npy.
+2024-05-17 10:55:04 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 10:55:50 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 10:55:50 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/dd9d82b45c17d9e85d8250d0148a60067b138c89/Knife_4e5602e8a655ab0ad43bb185feff0470_grasp.npy.
+2024-05-17 10:55:50 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 10:56:11 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 10:56:11 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/d3d63b8e79c4399947fe661b57d2fccf914a73f5/Knife_1a1a5facf2b73e534e23e9314af9ae57_grasp.npy.
+2024-05-17 10:56:11 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 10:56:26 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 10:56:26 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/dd9d82b45c17d9e85d8250d0148a60067b138c89/Knife_4e5602e8a655ab0ad43bb185feff0470_grasp.npy.
+2024-05-17 10:56:26 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 10:56:37 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 10:56:37 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/61a0d44e5b66249e5394a3d59bac46eb60615725/Knife_8c2a7aab604336ebb1ca50cbadeab92c_grasp.npy.
+2024-05-17 10:56:37 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 10:56:57 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 10:56:57 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/a2308903fe73e0be51e88089fc0ec2c770d4b625/Knife_24c6c5c56fe9bd3c37b23f392db50c63_grasp.npy.
+2024-05-17 10:56:57 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

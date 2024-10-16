@@ -1,0 +1,2 @@
+2024-05-25 08:09:59 - -----New Run-----
+2024-05-25 08:09:59 - args: Namespace(model_name='3DAFFLLM', data_path='/workspace/project/Aff_LLM_debug/demo/demo_data', pointnum=2048, log_file='/workspace/project/Aff_LLM_debug/demo/serving_workdirs/serving_log_2024-05-25-08-09-59.txt', tmp_dir='/workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp', port=7810, checkpoint='/workspace/project/Aff_LLM_debug/outputs/dgcnn_llm/3d_aff/train_dgcnn_batch_4_lr_3e-4_iteration_5000_seed_1_epoch_10_only_affdecoder/checkpoint_best.pth', gpu=None)

@@ -1,0 +1,199 @@
+model:
+  arch: aff_phi
+  model_type: phi
+  # arch: aff_qwen
+  # model_type: qwen
+  # arch: aff_phi_uni3d
+  # model_type: phi_uni3D
+  max_txt_len: 128
+  max_output_txt_len: 256
+  prompt_encoder_dim: 32
+
+  # Lora Settings
+  lora_r: 16
+  lora_alpha: 32
+  
+  # LLM to Aff model output dimension
+  freeze_point: True
+  free_seg_point_encoder: False
+  seg_point_encoder_config_path: "/workspace/project/Research_3D_Aff/Programme_affllm_code/models/openad/config/PT_modify.py"
+  seg_point_encoder_path:
+  freeze_linear: False
+  # aff
+  train_aff_encoder: True
+  aff_path: 
+  load_pretrained: True
+  pretrained: "/workspace/project/Research_3D_Aff/Programme_affllm_code_chs/final/phi_model/main3/20240910153/checkpoint_11.pth"
+  # loss setting
+  ce_loss_weight: 1.0
+  dice_loss_weight: 1.0
+  bce_loss_weight: 1.0
+  uselabelratio: False
+  label_ratio_path: "/workspace/project/Research_3D_Aff/Programme_affllm_code_chs/result_ratio.json"
+run:
+  init_lr: 3e-4
+  min_lr: 1e-6
+  warmup_lr: 1e-8
+  weight_decay: 0
+  max_epoch: 20
+  batch_size_train: 8
+  batch_size_eval: 40
+  num_workers: 2
+
+  warmup_steps: 120
+  iters_per_epoch: 2320
+  accum_grad_iters: 4
+
+  device: "cuda"
+  find_unused_parameters: True  # important for seg model
+
+  seed: 1
+  output_dir: "/workspace/project/Research_3D_Aff/3D_ADLLM/outputs/eval"
+
+  mixed_precision: 'bf16'
+
+  evaluate: True
+
+train_datasets:
+  3D_Affordance_val_affordancepose:
+    type: affordance
+    # type: affordance_uni3d
+eval_datasets:
+
+  3D_Affordance_val_new_prompt:
+    type: affordance
+    # type: affordance_uni3d
+    # eval_type: aff_eval
+    eval_type: affordance_acc
+  3D_Affordance_openval_new_prompt:
+    type: affordance
+    # type: affordance_uni3d
+    # eval_type: aff_eval
+    eval_type: affordance_acc
+  3D_Affordance_val_affordancepose:
+    type: affordance
+    # type: affordance_uni3d
+    # eval_type: aff_eval
+    eval_type: affordance_acc
+
+# partnet
+  # 3D_Affordance_partnet_openadtrain:
+  #     type: affordance
+  #     eval_type: affordance_acc
+  # 3D_Affordance_partnet_openadval:
+  #     type: affordance
+  #     eval_type: affordance_acc
+
+# openad
+  # 3D_Affordance_val_new_prompt_Grasp:
+  #   type: affordance
+  #   eval_type: aff_eval
+  # 3D_Affordance_val_new_prompt_Contain:
+  #   type: affordance
+  #   eval_type: aff_eval
+  # 3D_Affordance_val_new_prompt_Lift:
+  #   type: affordance
+  #   eval_type: aff_eval
+  # 3D_Affordance_val_new_prompt_Openable:
+  #   type: affordance
+  #   eval_type: aff_eval
+#   3D_Affordance_val_new_prompt_Layable:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_val_new_prompt_Sittable:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_val_new_prompt_Support:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_val_new_prompt_WrapGrasp:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_val_new_prompt_Pourable:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_val_new_prompt_Move:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_val_new_prompt_DisplaY:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_val_new_prompt_Pushable:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_val_new_prompt_Pull:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_val_new_prompt_Listen:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_val_new_prompt_Wear:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_val_new_prompt_Press:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_val_new_prompt_Cut:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_val_new_prompt_Stab:
+#     type: affordance
+#     eval_type: aff_eval
+
+
+# # # openval
+#   3D_Affordance_openval_new_prompt_Grasp:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_Contain:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_Lift:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_Openable:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_Layable:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_Sittable:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_Support:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_WrapGrasp:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_Pourable:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_Move:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_DisplaY:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_Pushable:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_Pull:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_Listen:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_Wear:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_Press:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_Cut:
+#     type: affordance
+#     eval_type: aff_eval
+#   3D_Affordance_openval_new_prompt_Stab:
+#     type: affordance
+#     eval_type: aff_eval
+

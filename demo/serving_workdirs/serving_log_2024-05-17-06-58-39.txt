@@ -1,0 +1,8 @@
+2024-05-17 06:58:39 - -----New Run-----
+2024-05-17 06:58:39 - args: Namespace(checkpoint='/workspace/project/Aff_LLM_debug/model_ckpt/best_model.t7', config='/workspace/project/Aff_LLM_debug/models/openad/config/full_shape_cfg_modify_demo.py', data_path='/workspace/project/Aff_LLM_debug/demo/demo_data', gpu=None, log_file='/workspace/project/Aff_LLM_debug/demo/serving_workdirs/serving_log_2024-05-17-06-58-39.txt', model_name='RunsenXu/PointLLM_7B_v1.2', pointnum=2048, port=7810, tmp_dir='/workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp')
+2024-05-17 06:58:39 - Starting conversation...
+2024-05-17 06:58:39 - --------------------------------------------------------------------------------
+2024-05-17 07:00:59 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 07:00:59 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/e30c1e1e80d9b2e43bc7c456202e4e2890ae2214/Knife_82ebc48a41abaad2e72c243118d89f07_grab.npy.
+2024-05-17 07:00:59 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 07:02:36 - --------------------------------------------------------------------------------

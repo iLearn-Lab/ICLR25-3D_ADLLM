@@ -1,0 +1,34 @@
+2024-05-17 07:56:35 - -----New Run-----
+2024-05-17 07:56:35 - args: Namespace(checkpoint='/workspace/project/Aff_LLM_debug/model_ckpt/label_pointnet_best_model.t7', config='/workspace/project/Aff_LLM_debug/models/openad/config/full_shape_cfg_modify_demo.py', data_path='/workspace/project/Aff_LLM_debug/demo/demo_data', gpu=None, log_file='/workspace/project/Aff_LLM_debug/demo/serving_workdirs/serving_log_2024-05-17-07-56-35.txt', model_name='RunsenXu/PointLLM_7B_v1.2', pointnum=2048, port=7810, tmp_dir='/workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp')
+2024-05-17 07:56:35 - Starting conversation...
+2024-05-17 07:56:35 - --------------------------------------------------------------------------------
+2024-05-17 08:02:04 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:02:04 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/bccc0dd190e445c7bfd0c32bbb62ef57fa267658/Knife_3b1f7f066991f2d45969e7cd6a0b6a55_grasp.npy.
+2024-05-17 08:02:04 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:02:49 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:02:49 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/76708476d26248af71a6f7345a53e16be0342666/Mug_1f035aa5fc6da0983ecac81e09b15ea9_grasp.npy.
+2024-05-17 08:02:49 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:03:48 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:03:48 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/3d4870d19b53f6c182b7fbb608a25002c0e3d89c/Mug_3a7439cfaa9af51faf1af397e14a566d_pourable.npy.
+2024-05-17 08:03:48 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:04:08 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:04:08 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/ad2fe8737a911fb69ce06517a11c68e4be56ea1e/Mug_3a7439cfaa9af51faf1af397e14a566d_grasp.npy.
+2024-05-17 08:04:08 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:04:33 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:04:33 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/550d4818e8fb49007faf4ad714b59c5f0e6d073e/Chair_1b6c268811e1724ead75d368738e0b47_move.npy.
+2024-05-17 08:04:33 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:04:59 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:04:59 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/5ca43099f05748386de0ff59b1480eee7d17cf7b/Chair_1b6c268811e1724ead75d368738e0b47_sittable.npy.
+2024-05-17 08:04:59 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:07:07 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:07:07 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/05edcfd0b8dc2621cfd9cabd7b9ae6735a4a7d1a/Faucet_1f00e3c311882a8866279f6cdc4d0486_openable.npy.
+2024-05-17 08:07:07 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:09:20 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:09:20 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/f3dc143a47bf78ed6789036cb54df6e8fb58b679/Bottle_1d4093ad2dfad9df24be2e4f911ee4af_grasp.npy.
+2024-05-17 08:09:20 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:11:05 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:11:05 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/2f8b5ccb65ffdcd426a025b5933538315827cc9b/Bottle_1df41477bce9915e362078f6fc3b29f5_contain.npy.
+2024-05-17 08:11:05 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:11:32 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2024-05-17 08:11:32 - Uploading file: /workspace/project/Aff_LLM_debug/demo/serving_workdirs/tmp/51171b4466508b793251307f46192e57a76a54b7/Bottle_1df41477bce9915e362078f6fc3b29f5_grasp.npy.
+2024-05-17 08:11:32 - %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

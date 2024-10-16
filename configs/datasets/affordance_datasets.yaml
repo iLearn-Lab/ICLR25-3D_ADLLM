@@ -1,0 +1,229 @@
+3D_Affordance_train_new_prompt_partial:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_view_train_data_with_prompt.pkl"
+3D_Affordance_train_new_prompt_partial_sample_6881:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_view_train_data_with_prompt_sample_6881.pkl"
+3D_Affordance_val_new_prompt_partial:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_view_val_data_with_prompt.pkl"
+3D_Affordance_val_new_prompt_partial_sample_6881:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_view_val_data_with_prompt_sample_6881.pkl"
+3D_Affordance_openval_new_prompt_partial:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_view_openval_data_with_prompt.pkl"
+
+3D_Affordance_train_new_prompt:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/train_data_new_prompt.pkl"
+3D_Affordance_train_sample_6881_new_prompt:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/train_data_sample_6881_new_prompt.pkl"
+3D_Affordance_val_new_prompt:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/val_data_new_prompt.pkl"
+3D_Affordance_openval_new_prompt:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/openval_data_new_prompt.pkl"  
+
+# partnet_train_v1
+PartNet_train:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/PartNet/pretrain_for_llm/updated_train_data.pkl"
+Partnet_val:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/PartNet/pretrain_for_llm/updated_val_data.pkl"
+Partnet_val_5000:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/PartNet/pretrain_for_llm/updated_val_sample_5000.pkl"
+Partnet_train_val_5000:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/PartNet/pretrain_for_llm/updated_val_train_sample_5000.pkl"
+# partnet val
+# 3D_Affordance_partnet_openadtrain:
+#   ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/PartNet/pretrain_openad/full_shape_train_data.pkl"
+# 3D_Affordance_partnet_openadval:
+#   ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/PartNet/pretrain_openad/full_shape_val_data.pkl"
+# partnet_train_v1
+
+# Val
+3D_Affordance_val_new_prompt_Grasp:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/grasp201.pkl"
+3D_Affordance_val_new_prompt_Contain:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/contain475.pkl"
+3D_Affordance_val_new_prompt_Support:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/support1405.pkl"
+3D_Affordance_val_new_prompt_Pull:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/pull15.pkl"
+3D_Affordance_val_new_prompt_Lift:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/lift9.pkl"
+3D_Affordance_val_new_prompt_Openable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/openable366.pkl"
+3D_Affordance_val_new_prompt_Pourable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/pourable196.pkl"
+3D_Affordance_val_new_prompt_Pushable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/pushable21.pkl"
+3D_Affordance_val_new_prompt_Stab:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/stab37.pkl" 
+3D_Affordance_val_new_prompt_Layable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/layable18.pkl"
+3D_Affordance_val_new_prompt_Sittable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/sittable618.pkl"
+3D_Affordance_val_new_prompt_WrapGrasp:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/wrap_grasp178.pkl"
+3D_Affordance_val_new_prompt_Move:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/move1382.pkl"
+3D_Affordance_val_new_prompt_DisplaY:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/displaY182.pkl"
+3D_Affordance_val_new_prompt_Listen:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/listen22.pkl"
+3D_Affordance_val_new_prompt_Wear:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/wear21.pkl"
+3D_Affordance_val_new_prompt_Press:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/press56.pkl"
+3D_Affordance_val_new_prompt_Cut:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Val_split/cut34.pkl"
+
+# OpenVal
+3D_Affordance_openval_new_prompt_Grasp:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/grab201.pkl"
+3D_Affordance_openval_new_prompt_Contain:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/accommodate475.pkl"
+3D_Affordance_openval_new_prompt_Support:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/bear1405.pkl"
+3D_Affordance_openval_new_prompt_Pull:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/drag15.pkl"
+3D_Affordance_openval_new_prompt_Lift:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/raise9.pkl"
+3D_Affordance_openval_new_prompt_Openable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/unlock366.pkl"
+3D_Affordance_openval_new_prompt_Pourable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/pour196.pkl"
+3D_Affordance_openval_new_prompt_Pushable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/push21.pkl"
+3D_Affordance_openval_new_prompt_Stab:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/jab37.pkl" 
+3D_Affordance_openval_new_prompt_Layable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/rest18.pkl"
+3D_Affordance_openval_new_prompt_Sittable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/take a seat618.pkl"
+3D_Affordance_openval_new_prompt_WrapGrasp:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/wrap178.pkl"
+3D_Affordance_openval_new_prompt_Move:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/reposition1382.pkl"
+3D_Affordance_openval_new_prompt_DisplaY:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/demonstrate182.pkl"
+3D_Affordance_openval_new_prompt_Listen:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/hear22.pkl"
+3D_Affordance_openval_new_prompt_Wear:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/clothe21.pkl"
+3D_Affordance_openval_new_prompt_Press:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/thumb56.pkl"
+3D_Affordance_openval_new_prompt_Cut:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM_onlyclass/OpenVal_split/slice34.pkl"
+
+
+# Affordance Pose Eval
+3D_Affordance_val_affordancepose:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/AffordancePose/for_llm_eval/L3_level_eval.pkl"
+# split_eval
+3D_Affordance_val_affordancepose_lever:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/AffordancePose/for_llm_eval/lever41.pkl"
+3D_Affordance_val_affordancepose_twist:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/AffordancePose/for_llm_eval/twist158.pkl"
+3D_Affordance_val_affordancepose_handle_grasp:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/AffordancePose/for_llm_eval/handle-grasp198.pkl"
+3D_Affordance_val_affordancepose_lift:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/AffordancePose/for_llm_eval/lift6.pkl"
+3D_Affordance_val_affordancepose_press:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/AffordancePose/for_llm_eval/press34.pkl"
+3D_Affordance_val_affordancepose_support:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/AffordancePose/for_llm_eval/support11.pkl"
+3D_Affordance_val_affordancepose_wrap_grasp:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/AffordancePose/for_llm_eval/wrap-grasp111.pkl"
+
+# Partial val
+3D_Affordance_val_partial_new_prompt_Grasp:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/grasp777.pkl"
+3D_Affordance_val_partial_new_prompt_Contain:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/contain1700.pkl"
+3D_Affordance_val_partial_new_prompt_Support:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/support4714.pkl"
+3D_Affordance_val_partial_new_prompt_Pull:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/pull54.pkl"
+3D_Affordance_val_partial_new_prompt_Lift:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/lift30.pkl"
+3D_Affordance_val_partial_new_prompt_Openable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/openable1180.pkl"
+3D_Affordance_val_partial_new_prompt_Pourable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/pourable746.pkl"
+3D_Affordance_val_partial_new_prompt_Pushable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/pushable83.pkl"
+3D_Affordance_val_partial_new_prompt_Stab:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/stab148.pkl" 
+3D_Affordance_val_partial_new_prompt_Layable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/layable64.pkl"
+3D_Affordance_val_partial_new_prompt_Sittable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/sittable2320.pkl"
+3D_Affordance_val_partial_new_prompt_WrapGrasp:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/wrap_grasp701.pkl"
+3D_Affordance_val_partial_new_prompt_Move:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/move5508.pkl"
+3D_Affordance_val_partial_new_prompt_DisplaY:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/displaY531.pkl"
+3D_Affordance_val_partial_new_prompt_Listen:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/listen88.pkl"
+3D_Affordance_val_partial_new_prompt_Wear:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/wear84.pkl"
+3D_Affordance_val_partial_new_prompt_Press:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/press124.pkl"
+3D_Affordance_val_partial_new_prompt_Cut:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/val/cut136.pkl"
+
+
+
+3D_Affordance_openval_partial_new_prompt_Grasp:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/grab777.pkl"
+3D_Affordance_openval_partial_new_prompt_Contain:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/accommodate1700.pkl"
+3D_Affordance_openval_partial_new_prompt_Support:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/bear4714.pkl"
+3D_Affordance_openval_partial_new_prompt_Pull:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/drag54.pkl"
+3D_Affordance_openval_partial_new_prompt_Lift:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/raise30.pkl"
+3D_Affordance_openval_partial_new_prompt_Openable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/unlock1180.pkl"
+3D_Affordance_openval_partial_new_prompt_Pourable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/pour746.pkl"
+3D_Affordance_openval_partial_new_prompt_Pushable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/push83.pkl"
+3D_Affordance_openval_partial_new_prompt_Stab:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/jab148.pkl" 
+3D_Affordance_openval_partial_new_prompt_Layable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/rest64.pkl"
+3D_Affordance_openval_partial_new_prompt_Sittable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/take a seat2320.pkl"
+3D_Affordance_openval_partial_new_prompt_WrapGrasp:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/wrap701.pkl"
+3D_Affordance_openval_partial_new_prompt_Move:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/reposition5508.pkl"
+3D_Affordance_openval_partial_new_prompt_DisplaY:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/demonstrate531.pkl"
+3D_Affordance_openval_partial_new_prompt_Listen:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/hear88.pkl"
+3D_Affordance_openval_partial_new_prompt_Wear:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/clothe84.pkl"
+3D_Affordance_openval_partial_new_prompt_Press:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/thumb124.pkl"
+3D_Affordance_openval_partial_new_prompt_Cut:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/partial_split/openval/slice136.pkl"
+
+
+
+# 3D_Affordance_train_new_prompt_updatedanswer:
+#   ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/train_data_new_prompt_updatedanswer.pkl"
+# 3D_Affordance_train_sample_half:
+#   ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/train_data_sample_half.pkl"
+# 3D_Affordance_train_sample_half_6437:
+#   ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/train_data_sample_half_6437.pkl"
+# 3D_Affordance_train_sample_1000_instruction:
+#   ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/train_data_sample_1000_new_prompt_updated_instructionwithclass.pkl"
+# train_update_answer
+# 3D_Affordance_train_new_prompt_Grasp_update_answer:
+#   ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Train_split_update_answer/grasp1440.pkl"
+# 3D_Affordance_train_new_prompt_Pull_update_answer:
+#   ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Train_split_update_answer/pull116.pkl"
+# 3D_Affordance_train_new_prompt_Wear_update_answer:
+#   ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Train_split_update_answer/wear153.pkl"
+# # 预测不相干区域
+# 3D_Affordance_train_new_prompt_Pull_Unrelated:
+#   ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/pull_data_new_prompt_unrelated.pkl"

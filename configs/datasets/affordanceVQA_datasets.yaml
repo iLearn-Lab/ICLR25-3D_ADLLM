@@ -1,0 +1,47 @@
+# OpenAD的数据
+3D_Affordance_VQA_Identify_train:
+  ann_path: "/workspace/Dataset/process_data_for_affllm_textidentify/final_train_data_full_shape_mask_textidentify.pkl"
+3D_Affordance_VQA_Identify_val:
+  ann_path: "/workspace/Dataset/process_data_for_affllm_textidentify/final_val_data_full_shape_mask_textidentify.pkl"
+3D_Affordance_train_VQA_Identify_200:
+  ann_path: "/workspace/Dataset/process_data_for_affllm_textidentify/final_train_data_full_shape_mask_200_textidentify.pkl"
+3D_Affordance_VQA_Identify_train_partial:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/partial/partial_view_train_data_textidentify.pkl"
+
+# Split
+3D_Affordance_VQA_Identify_train_Grasp:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/grasp1440.pkl"
+3D_Affordance_VQA_Identify_train_Contain:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/contain3380.pkl"
+3D_Affordance_VQA_Identify_train_Lift:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/lift77.pkl"
+3D_Affordance_VQA_Identify_train_Openable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/openable2543.pkl"
+3D_Affordance_VQA_Identify_train_Layable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/layable126.pkl"
+3D_Affordance_VQA_Identify_train_Sittable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/sittable4351.pkl"
+3D_Affordance_VQA_Identify_train_Support:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/support9790.pkl"
+3D_Affordance_VQA_Identify_train_WrapGrasp:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/wrap_grasp1275.pkl"
+3D_Affordance_VQA_Identify_train_Pourable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/pourable1411.pkl"
+3D_Affordance_VQA_Identify_train_Move:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/move9732.pkl"
+3D_Affordance_VQA_Identify_train_DisplaY:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/displaY1280.pkl"
+3D_Affordance_VQA_Identify_train_Pushable:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/pushable144.pkl"
+3D_Affordance_VQA_Identify_train_Pull:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/pull116.pkl" 
+3D_Affordance_VQA_Identify_train_Listen:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/listen157.pkl"
+3D_Affordance_VQA_Identify_train_Wear:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/wear153.pkl"
+3D_Affordance_VQA_Identify_train_Press:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/press386.pkl"
+3D_Affordance_VQA_Identify_train_Cut:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/cut260.pkl"
+3D_Affordance_VQA_Identify_train_Stab:
+  ann_path: "/workspace/project/Research_3D_Aff/Data_construct/Dataset/OpenAD/Data_for_LLM/Text_Identify_split/stab260.pkl" 
