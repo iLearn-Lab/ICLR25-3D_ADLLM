@@ -196,6 +196,10 @@ def start_conversation(args):
                 ### Usage:
                 1. Template:Please locate the areas of the object_name with function of action_name.
                 2. Knife : Please locate the areas of the Knife with function of grasp.
+                # "Please find me a functional regions on this object that can be used to <aff>.",
+                # "Please help me find the regions on this object that is relevant to the functional description:<aff>.",
+                # "Can you show me where the <aff> regions is in this object?",
+                # "Where is the <aff> regions situated on the object in this point clouds data?",
                 """
             )
             with gr.Row():
