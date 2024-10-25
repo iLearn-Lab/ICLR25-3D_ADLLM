@@ -220,6 +220,9 @@ def start_conversation(args):
                         file = point_cloud_input.name
                         pointdata = np.load(file)
                         raw_pointdata = np.copy(pointdata)
+                        if raw_pointdata.shape[1] < 6:
+                            zeros = np.zeros(2048, 3))
+                            raw_pointdata = np.concatenate((raw_pointdata, zeros), axis = 1)
                         LLM_input_points = (
                             torch.Tensor(pc_norm(pointdata[:, :3])).float().cuda()
                         )
