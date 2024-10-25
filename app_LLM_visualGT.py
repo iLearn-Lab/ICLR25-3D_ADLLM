@@ -268,14 +268,13 @@ def start_conversation(args):
                         color_strings = [
                             "rgb({},{},{})".format(r, g, b) for r, g, b in color_data
                         ]
-                        # fig2 = create_fig(points, slider, color_strings)
+                        fig2 = create_fig(points, slider, color_strings)
 
                         response = response[0]
                         response = response.replace("<", "&lt;").replace(">", "&gt;")
 
                         history.append((message, response))
-                        # return history, history, fig, fig2
-                        return history, history, fig
+                        return history, history, fig, fig2
 
                     with gr.Row():
                         text_input = gr.Textbox(
@@ -288,7 +287,7 @@ def start_conversation(args):
                     run_button.click(
                         fn=chat,
                         inputs=[point_cloud_input, text_input, conv_state, slider],
-                        outputs=[chatbot, conv_state, output2],
+                        outputs=[chatbot, conv_state, output2, output],
                     )
                     clear = gr.ClearButton(
                         [text_input, chatbot, conv_state], value="Clear"

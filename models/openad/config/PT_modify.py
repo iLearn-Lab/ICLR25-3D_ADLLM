@@ -1,21 +1,12 @@
-from models.openad.utils import PN2_BNMomentum, PN2_Scheduler
 seed = 1
-
-scheduler = dict(
-    type='lr_lambda',
-    lr_lambda=PN2_Scheduler(init_lr=0.001, step=20,
-                            decay_rate=0.5, min_lr=1e-5)
+model = dict(
+    type="PT_model_mlp_512",
+    num_point=2048,
+    nneighbor=16,
+    nblocks=4,
+    transformer_dim=512,
+    input_dim=3,
 )
-
-optimizer = dict(
-    type='adam',
-    lr=0.001,
-    betas=(0.9, 0.999),
-    eps=1e-08,
-    weight_decay=1e-4
-)
-
-model = dict(type="PT_model_mlp_512", num_point=2048, nneighbor=16, nblocks=4, transformer_dim=512,input_dim=3)
 
 training_cfg = dict(
     model=model,
@@ -35,9 +26,4 @@ training_cfg = dict(
         val=1,
         openval=1,
     ),
-    bn_momentum=PN2_BNMomentum(origin_m=0.1, m_decay=0.5, step=20),
-)
-
-data = dict(
-    data_root="/workspace/project/OpenAD_Modify/Modify_data",
 )

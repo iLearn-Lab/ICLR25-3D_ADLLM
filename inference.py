@@ -23,7 +23,7 @@ if __name__ == "__main__":
         device=device,
     )
     model.load_from_pretrained(
-        "/workspace/project/Aff_LLM_debug/outputs/dgcnn_llm/3d_aff/train_dgcnn_batch_4_lr_3e-4_iteration_9220_seed_1_epoch_10_only_affdecoder_mixdata/checkpoint_7.pth"
+        "/workspace/project/Research_3D_Aff/Ckpts/Phi_Main/full_best.pth"
     )
     # load data
     file = "/workspace/project/Research_3D_Aff/3D_ADLLM/demo/demo_data/Knife480.npy"

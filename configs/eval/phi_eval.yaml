@@ -16,20 +16,20 @@ model:
   # LLM to Aff model output dimension
   freeze_point: True
   free_seg_point_encoder: False
-  seg_point_encoder_config_path: "/workspace/project/Research_3D_Aff/Programme_affllm_code/models/openad/config/PT_modify.py"
-  seg_point_encoder_path:
+  seg_point_encoder_config_path: "/workspace/project/Research_3D_Aff/3D_ADLLM/models/openad/config/PT_modify.py"
+  seg_point_encoder_path: "/workspace/project/Research_3D_Aff/Ckpts/PointBackbone/best_model.t7"
   freeze_linear: False
   # aff
   train_aff_encoder: True
-  aff_path: 
+  aff_path: "/workspace/project/Research_3D_Aff/Ckpts/PointBackbone/best_model.t7"
   load_pretrained: True
-  pretrained: "/workspace/project/Research_3D_Aff/Programme_affllm_code_chs/final/phi_model/main3/20240910153/checkpoint_11.pth"
+  pretrained: "/workspace/project/Research_3D_Aff/Ckpts/Phi_Main/full_best.pth"
   # loss setting
   ce_loss_weight: 1.0
   dice_loss_weight: 1.0
   bce_loss_weight: 1.0
   uselabelratio: False
-  label_ratio_path: "/workspace/project/Research_3D_Aff/Programme_affllm_code_chs/result_ratio.json"
+  label_ratio_path: "/workspace/project/Research_3D_Aff/3D_ADLLM/result_ratio.json"
 run:
   init_lr: 3e-4
   min_lr: 1e-6
@@ -84,6 +84,7 @@ eval_datasets:
   #     type: affordance
   #     eval_type: affordance_acc
 
+# split eval
 # openad
   # 3D_Affordance_val_new_prompt_Grasp:
   #   type: affordance

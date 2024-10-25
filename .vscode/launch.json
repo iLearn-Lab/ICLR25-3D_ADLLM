@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Single Train",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "train.py",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "--cfg-path",
+                "/workspace/project/Research_3D_Aff/3D_ADLLM/configs/phi_train/phi_train.yaml"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0"
+            },
+        },
+        {
+            "name": "Python DDP Train",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/root/miniconda3/envs/3daff/bin/torchrun",
+            // "program": "/root/miniconda3/envs/gemma/bin/torchrun",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args": [
+                "--nproc_per_node=2",
+                "train.py",
+                "--cfg-path",
+                "/workspace/project/Research_3D_Aff/3D_ADLLM/configs/phi_train/phi_train.yaml"
+            ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "5,4"
+            },
+        }
+    ]
+}

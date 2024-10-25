@@ -587,14 +587,14 @@ class AffordancePhiUni3d(BaseModel):
         # Point_encoder set
         point_model_config_path = cfg.get(
             "point_model_config_path",
-            "/workspace/project/Research_3D_Aff/Programme_affllm_code/configs/models/PointTransformer_2048point.yaml",
+            "/workspace/project/Research_3D_Aff/3D_ADLLM/configs/models/PointTransformer_2048point.yaml",
         )
         freeze_point = cfg.get("freeze_point", True)
         # seg_encoder
         free_seg_point_encoder = cfg.get("free_seg_point_encoder", False)
         seg_point_encoder_config_path = cfg.get(
             "seg_point_encoder_config_path",
-            "/workspace/project/Research_3D_Aff/Programme_affllm_code/models/openad/config/PT_modify.py",
+            "/workspace/project/Research_3D_Aff/3D_ADLLM/models/openad/config/PT_modify.py",
         )
         seg_point_encoder_path = cfg.get(
             "seg_point_encoder_path",
@@ -617,7 +617,7 @@ class AffordancePhiUni3d(BaseModel):
         freeze_linear = cfg.get("freeze_linear", False)
         label_ratio_path = cfg.get(
             "label_ratio_path",
-            "/workspace/project/Research_3D_Aff/Programme_affllm_code_chs/result_ratio.json",
+            "/workspace/project/Research_3D_Aff/3D_ADLLM/result_ratio.json",
         )
         lora_llm_finetune = cfg.get("lora_llm_finetune", False)
 

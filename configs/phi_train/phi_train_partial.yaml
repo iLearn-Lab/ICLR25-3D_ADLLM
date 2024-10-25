@@ -14,15 +14,15 @@ model:
   freeze_point: True
   free_seg_point_encoder: False
   seg_point_encoder_config_path: "/workspace/project/Research_3D_Aff/3D_ADLLM/models/openad/config/PT_modify.py"
-  seg_point_encoder_path: "/workspace/project/OpenAD_Modify/Train_Samplepartnet_log_0814/PT_modify_mlp_512_PartNet_DDP_train/best_model.t7"
+  seg_point_encoder_path: "/workspace/project/Research_3D_Aff/Ckpts/PointBackbone/best_model.t7"
   freeze_linear: False
   # aff
   train_aff_encoder: True
   # aff_path: 
-  aff_path: "/workspace/project/OpenAD_Modify/Train_Samplepartnet_log_0814/PT_modify_mlp_512_PartNet_DDP_train/best_model.t7"
+  aff_path: "/workspace/project/Research_3D_Aff/Ckpts/PointBackbone/best_model.t7"
   # load_pretrained: False
   load_pretrained: True
-  pretrained: "/workspace/project/Research_3D_Aff/3D_ADLLM/outputs/phi_model/main/checkpoint_best.pth"
+  pretrained: "/workspace/project/Research_3D_Aff/Ckpts/Phi_Main/full_best.pth"
   # loss setting
   ce_loss_weight: 1.0
   dice_loss_weight: 1.0
@@ -45,7 +45,7 @@ run:
   device: "cuda"
   find_unused_parameters: True  # important for seg model
   seed: 1
-  output_dir: "/workspace/project/Research_3D_Aff/3D_ADLLM/outputs/phi_model_partial"
+  output_dir: "/workspace/project/Research_3D_Aff/3D_ADLLM/outputs/main_partial"
   mixed_precision: 'bf16'
   evaluate: False
 
