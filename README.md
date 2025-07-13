@@ -3,6 +3,8 @@
 Training repository of 3D Affordance LLM
 
 # Getting Started
+## Ckpts and datasets
+https://drive.google.com/drive/folders/1WxQRbg0jDHI-IAdW-wl29EA3I9oEEaUz?usp=drive_link
 
 ## Installation
 
