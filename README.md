@@ -61,39 +61,40 @@ Explanation for some keys.
   ```
 
 
-## Training
+## General Training Guide for this code
 
 For multi-gpu training, you can use the following command:
 ```bash
 CUDA_VISIBLE_DEVICES=0,1 TOKENIZERS_PARALLELISM=true  torchrun --master_port 11453 --nproc_per_node=2 train.py --cfg-path configs/phi_train/phi_train.yaml
-
 ```
 For single-gpu training, you can use the following command:
 ```bash
-python train.py --cfg-path configs/T5_finetune.yaml
+python train.py --cfg-path configs/phi_train/phi_train.yaml
 ```
 For deepspeed training: Please refer to [HuggingFace Accelerator Document](https://huggingface.co/docs/accelerate/v0.22.0/en/usage_guides/deepspeed) for more details.
 
 Here is an example:
 
 ```bash
-accelerate launch --config_file ds_config.yaml train.py --cfg-path configs/test.yaml
-```
-## Affordance Model Test
-```bash
-# Single GPU training
-CUDA_VISIBLE_DEVICES=1 python train.py --cfg-path configs/point_affordance_openad.yaml 
-
-# Multi Gpu Training
-CUDA_VISIBLE_DEVICES=0,1 TOKENIZERS_PARALLELISM=true  torchrun --master_port 11453 --nproc_per_node=2 train.py --cfg-path configs/point_affordance_DGCNN.yaml > outputs/dgcnn_llm/log/train_dgcnn_batch_4_lr_3e-4_iteration_5000_seed_1.log 2>&1 &
+accelerate launch --config_file ds_config.yaml train.py --cfg-path configs/phi_train/phi_train.yaml
 ```
 
-## Affordance Model 
+
+## Affordance Model (3D-ADLLM) Train
 ```bash
 # deepspeed training
 # train for model identify
-accelerate launch --config_file ds_config.yaml train.py --cfg-path configs/point_affordance_DGCNN_pretrained.yaml > outputs/dgcnn_llm/log/train_dgcnn_batch_4_lr_3e-4_iteration_5000_seed_1.log 2>&1 &
+accelerate launch --config_file ds_config.yaml train.py --cfg-path configs/phi_train/phi_train.yaml > outputs/train.log 2>&1 &
 
+```
+
+## Affordance Model ((3D-ADLLM) Eval
+```bash
+# Single GPU Eval
+CUDA_VISIBLE_DEVICES=1 python train.py --cfg-path configs/eval/phi_eval.yaml 
+
+# Multi Gpu Eval
+CUDA_VISIBLE_DEVICES=0,1 TOKENIZERS_PARALLELISM=true  torchrun --master_port 11453 --nproc_per_node=2 train.py --cfg-path configs/eval/phi_eval.yaml
 ```
 
 ## Adding Custom Models
