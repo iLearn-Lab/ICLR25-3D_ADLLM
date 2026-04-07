@@ -8,7 +8,7 @@ Official implementation of 3D-AffordanceLLM: Harnessing Large Language Models fo
 
 2 Huawei Noah’s Ark Lab
 
-* Corresponding authors
+\* Corresponding author
 
 # Getting Started
 Training repository of 3D Affordance LLM
