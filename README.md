@@ -2,11 +2,13 @@
 Official implementation of 3D-AffordanceLLM: Harnessing Large Language Models for Open-Vocabulary Affordance Detection in 3D Worlds.
 
 # Authors
-**Hengshuo Chu**$^1$, **Xiang Deng**$\dag$$^1$, **Qi Lv**$^1$, **Xiaoyang Chen**$^1$,**Yinchuan Li**$^2$, **Jianye Hao**$^2$, **Liqiang Nie**$\dag$$^1$
+**Hengshuo Chu**<sup>1</sup>, **Xiang Deng**<sup>1</sup>\*, **Qi Lv**<sup>1</sup>, **Xiaoyang Chen**<sup>1</sup>, **Yinchun Li**<sup>2</sup>, **Jianye Hao**<sup>2</sup>,**Liqiang Nie**<sup>1</sup>\*
 
-1 School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen), 
+1 School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen)
+
 2 Huawei Noah’s Ark Lab
-† Corresponding authors
+
+* Corresponding authors
 
 # Getting Started
 Training repository of 3D Affordance LLM
